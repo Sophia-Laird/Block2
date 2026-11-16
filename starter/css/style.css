@@ -84,6 +84,7 @@ body {
   border-left: 10px solid #CADCFC;
   margin: 0 auto 24px;
   margin-top: 16px;
+  position: relative;
 }
 
 /* Task 4: Shape the date tag */
@@ -131,6 +132,10 @@ body {
   color: #FFFFFF;
   font-weight: bold;
   font-size: 0.8rem;
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  padding: 4px 12px;
 }
 
 .join-btn {
