@@ -195,7 +195,8 @@ Added in the .bio class
 /* Task 6: Sticky header */
 .site-header{
   position: sticky;
-  top: 0px;
+  /*I changed this value for style preference (so it covers less info as you scroll)*/
+  top: -35px;
   z-index: 10;
 }
 
