@@ -193,10 +193,21 @@ Added in the .bio class
 
 
 /* Task 6: Sticky header */
-
+.site-header{
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
 
 /* Task 7: Fixed Join button */
-
+.join-btn{
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  padding: 12px 20px;
+  border-radius: 6px;
+  z-index: 11;
+}
 
 /* Task 8: Don't cover the footer */
 
